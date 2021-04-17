@@ -23,7 +23,7 @@ body{
     color: white;
     font-family: 'Amatic SC', cursive;;
     max-width: 500px;
-    height: 500px;
+    height: 520px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 145px;
@@ -66,7 +66,7 @@ button{
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(245, 142, 7);
-    margin-top: 190px;
+    margin-top: 220px;
     width: 100%;
     height: 50px;
     border: none;
@@ -95,10 +95,9 @@ button{
 }
 
 #resultado{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     display: block;
-    margin-top: -200px;
 }
 
 footer{
@@ -114,3 +113,34 @@ footer p {
     padding-top: 10px;
     text-align: center;
 }
+
+.result-info {
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: rgb(245, 142, 7);
+    width: 0 auto;
+    margin-top: -250px;
+  }
+
+.result{
+    display: flex;
+}
+
+.result img {
+    padding: 5px;
+    align-items: center;
+    margin-left: 150px;
+}
+
+
+
+ 
+
+
+
+
+  
+
+
+

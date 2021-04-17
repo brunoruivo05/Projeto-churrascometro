@@ -27,6 +27,24 @@ function calcular(){
     resultado.innerHTML += `<p>${Math.ceil(qdtTotalCerveja / 355)} Latas de Cerveja</p>`
     resultado.innerHTML += `<p>${Math.ceil(qdtTotalBebida / 2000)} Garrafas de Refrigerante</p>`
 
+
+//Aqui onde realizo a concatenação da img com o resultado.
+resultado.innerHTML = `<p class="result-info">Tudo que você precisa para o seu churrascão!:</p><br>`
+resultado.innerHTML += `<div class="result"> 
+<img src="./image/carne.png"/> ${qdtTotalCarne / 1000} Kg de Carne</img>
+</div>
+`
+resultado.innerHTML += `
+  <div class="result">
+    <img src="./image/cerveja.png"/> ${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja</img>
+  </div>
+`
+resultado.innerHTML += `
+  <div class="result">
+    <img src="./image/refri.png"/> ${Math.ceil(qdtTotalBebida/2000)} garrafas de Bebidas</img>
+    
+  </div>
+  `
 }
 
 
