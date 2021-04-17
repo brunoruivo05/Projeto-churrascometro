@@ -124,6 +124,8 @@ footer p {
   }
 
 .result{
+    border: black solid 1px;
+    border-radius: 10px;
     display: flex;
 }
 
