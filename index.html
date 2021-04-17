@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>Churrascometro</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+       <div class="title">
+           <h1>CHURRASCOMETRO</h1>
+    </div>      
+</div> 
+    </header>
+    
+    <main>
+        <section class="container2">
+            <h1>CALCULE SEU CHURRASCO</h1>
+            <input id="adultos" name="adultos" type="number" placeholder="Adultos"><br><br>
+            <input id="criancas" name="criancas" type="number" placeholder="Crianças"><br><br>
+            <input id="duracao" name="duracao" type="number" placeholder="Duração">
+            <button onclick="calcular()" onmouseover="onOver(this)" onmouseout="onOut(this)" >Churrascar</button>
+
+            <div id="resultado">
+            </div>
+        </section>
+
+       
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
